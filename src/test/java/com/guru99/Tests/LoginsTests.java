@@ -9,7 +9,7 @@ public class LoginsTests extends BaseTests{
     @Parameters({"username","password"})
     @Test
     public void verifyUserLoginWithCorrectCerdentials(String username,String password) {
-//
+/
         reportUtils.createTestCase("verify User LoginWithCorrectCerdentials");
         reportUtils.addTestLog(Status.INFO, "Performin Log");
         loginpage.loginTpApplication(username, password);
